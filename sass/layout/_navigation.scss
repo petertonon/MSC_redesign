@@ -1,0 +1,108 @@
+// .navigation .solid{
+//  background-color: white;
+//  /* overflow: auto; */
+//  margin: 0;
+//  display: block;
+//  vertical-align: bottom;
+//  display: flex;
+//  justify-content: space-between;
+//  // padding: 1rem;
+//  position: sticky;
+//  top: 0;
+//  z-index: 2;
+//  height: 15vh;
+
+.navigation {
+ background-color: white;
+ /* overflow: auto; */
+ margin: 0;
+ display: block;
+ vertical-align: bottom;
+ display: flex;
+ justify-content: space-between;
+ // padding: 1rem;
+ position: sticky;
+ top: 0;
+ z-index: 2;
+ height: 15vh;
+
+ & ul {
+   list-style: none;
+   /* padding: 0 4rem 0 0; */
+   background-color: white;
+   display: flex;
+   align-items: center;
+ }
+
+ & ul li a{
+   color: $color-grey-dark;
+   font-size: 1.75rem;
+   font-family: 'Signika', sans-serif;
+   font-weight: 400;
+   text-decoration: none;
+   padding: 1rem;
+   margin: 0;
+   display: block;
+   text-transform: uppercase;
+   text-align: center;
+ }
+
+
+ & div:first-child {
+   background-color: white;
+   line-height: 0;
+   padding: 0 0 0 1rem;
+   text-align: center;
+
+   & nav ul {
+     margin: 0;
+   }
+ }
+}
+
+.logo img {
+ /* width: 35em; */
+ height: 100%;
+ width: 35rem;
+ // padding-left: 1rem;
+}
+
+.dropbtn {
+  color: $color-grey-dark;
+  font-size: 1.75rem;
+  font-family: 'Signika', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $color-grey-light;
+    width: 22rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    text-transform: none;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: $color-grey-dark;
+    text-align: left;
+    text-transform: none;
+}
+
+.dropdown-content a:hover {background-color: $color-grey;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {color: $color-primary;}

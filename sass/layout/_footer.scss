@@ -1,0 +1,24 @@
+.footer {
+  padding: 2rem;
+  background: $color-grey-dark;
+  color: $color-grey-light;
+
+
+  &__copyright {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: right;
+
+  }
+
+  &__contact {
+    font-size: 2rem;
+    text-align: center;
+
+    & p {
+      color: $color-grey-light;
+      padding: .5rem;
+    }
+  }
+
+}
