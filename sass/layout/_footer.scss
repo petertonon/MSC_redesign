@@ -12,13 +12,21 @@
   }
 
   &__contact {
-    font-size: 2rem;
+    font-size: 2.1rem;
     text-align: center;
 
     & p {
       color: $color-grey-light;
       padding: .5rem;
+      font-family: "Montserrat;"
     }
+  }
+
+  & h2 {
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 1rem;
+    // font-family: "Montserrat;"
+
   }
 
 }

@@ -150,7 +150,7 @@ body {
   font-size: 5rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 2rem;
+  padding: 4rem 2rem;
   color: #454646;
   position: relative;
   z-index: 1;
@@ -255,7 +255,7 @@ body {
 
 .team-container {
   padding: 0;
-  margin: 0 15% 50% 15%;
+  margin: 2% 12% 2% 12%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -266,18 +266,25 @@ body {
 
 .headshot-box {
   background: white;
-  width: 200px;
-  height: 100%;
+  width: 20%;
+  min-width: 200px;
+  height: auto;
   margin: 1rem;
   color: white; }
   .headshot-box p {
     font-family: "Montserrat;"; }
+  .headshot-box .button {
+    text-decoration: none; }
   .headshot-box:hover {
     background-color: rgba(48, 152, 240, 0.8);
-    color: #e8eaec;
     box-shadow: 0 1rem 2rem #454646;
     transform: translateY(-4px);
-    transition: .2s ease-in-out; }
+    transition: .2s ease-in-out;
+    text-decoration: none; }
+    .headshot-box:hover img {
+      border-radius: 0; }
+    .headshot-box:hover p {
+      color: #e8eaec; }
   .headshot-box:active {
     box-shadow: 0 0.5rem 1rem #454646;
     transform: translateY(-4px);
@@ -286,8 +293,6 @@ body {
     width: 100%;
     padding: 1px;
     border-radius: 50%; }
-    .headshot-box-image:hover {
-      border-radius: 0; }
 
 .name_card {
   text-align: center;
@@ -400,11 +405,15 @@ body {
     padding-bottom: 1rem;
     text-align: right; }
   .footer__contact {
-    font-size: 2rem;
+    font-size: 2.1rem;
     text-align: center; }
     .footer__contact p {
       color: #e8eaec;
-      padding: .5rem; }
+      padding: .5rem;
+      font-family: "Montserrat;"; }
+  .footer h2 {
+    font-family: 'Muli', sans-serif;
+    padding-bottom: 1rem; }
 
 .row {
   max-width: 130rem;
